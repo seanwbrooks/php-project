@@ -1,3 +1,5 @@
+<?php
+
 $user = 'root';
 $password = 'root';
 $db = 'inventory';
@@ -13,3 +15,5 @@ $db_selected = mysql_select_db(
 $db,
 $link
 );
+
+?>
